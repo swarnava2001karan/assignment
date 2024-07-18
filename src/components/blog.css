@@ -1,0 +1,20 @@
+#text-header{
+  text-align: center;
+}
+
+#head{
+  text-align: center;
+  color:#9697934d;
+  background: linear-gradient(to right ,#5c5c59 20%, transparent 50%);
+  background-clip: text;
+}
+.blog-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1.5rem;
+  }
+  
+  .blog-post img {
+    border-radius: 8px;
+    margin-bottom: 1rem;
+  }

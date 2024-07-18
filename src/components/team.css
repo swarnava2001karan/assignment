@@ -1,0 +1,36 @@
+.team {
+  padding: 60px;
+  position: relative;
+}
+.team h1{
+  align-items: center;
+  text-align: center;
+}
+
+.team-members {
+  display: flex;
+  justify-content: space-between;
+}
+
+.team-member {
+  flex: 1;
+  margin: 0 15px;
+  text-align: center;
+
+}
+
+.team-member h2 {
+  font-size: 20px;
+  text-align: center;
+  font-weight: 600;
+}
+
+.team-member img {
+  width: 100%;
+  height: auto;
+}
+
+.team-member.featured {
+  background-color: yellow;
+  padding: 30px;
+}

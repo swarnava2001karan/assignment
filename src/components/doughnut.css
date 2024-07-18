@@ -1,0 +1,29 @@
+.doughnut {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: conic-gradient(
+      #ffd700 0deg 205.2deg,
+      #f0f0f0 205.2deg 360deg
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+  }
+  
+  .doughnut::before {
+    content: "";
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    background: white;
+    border-radius: 50%;
+  }
+  
+  .doughnut-text {
+    position: relative;
+    z-index: 1;
+    font-size: 2rem;
+    font-weight: bold;
+  }

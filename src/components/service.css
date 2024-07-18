@@ -1,0 +1,49 @@
+
+.service-grid {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+    text-align: center;
+  }
+  .group{
+    height: 20rem;
+    width: 30rem;
+  }
+  #navbar{
+    
+    display:grid;
+    
+    
+  }
+  #navbar .service-doughnut{
+  margin-left: -270px;
+  margin-bottom: -340px;
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  border: 50px solid yellow;
+  opacity: 0.4;
+  } 
+
+  .text-header{
+    margin-left: 35rem;
+    margin-top: -15rem;
+    font-size: 0.7rem;
+  }
+#navbar .text1{
+  text-align:center;
+  font-size: 2.5rem;
+  line-height: 2.5rem;
+  color:#9697934d;
+  background: linear-gradient(to right ,#a1a1a0 10%, transparent 50%);
+  background-clip: text;
+
+}
+
+#navbar #subtext{
+  font-size: 2rem;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
